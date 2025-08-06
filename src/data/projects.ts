@@ -11,7 +11,7 @@ export const projects: Project[] = [
     name: "TODO",
     link: "/todo",
     image: "",
-    code: "",
+    code: "https://github.com/hanzalakhan010/MyProjects/tree/main/src/pages/Todo",
     desc:"Simple Todo"
   },
 ];

@@ -17,8 +17,8 @@ function App() {
                   <h3 className="text-xl font-semibold mb-2">{project.name}</h3>
                   <p className="text-gray-600 mb-4">{project.desc}</p>
                   <div>
-                    <a href={project.code} className="inline-block mr-10 ml-10 bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700">View Code</a>
-                    <a href={project.link} className="inline-block bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700">Live Preview</a>
+                    <a href={project.code} target='_blank' className="inline-block mr-10 ml-10 bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700">View Code</a>
+                    <a href={project.link} target='_blank' className="inline-block bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700">Live Preview</a>
                   </div>
 
                 </div>
