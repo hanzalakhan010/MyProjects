@@ -1,6 +1,6 @@
 const CurrencyConverter = () => {
     function convert() {
-        let rates = JSON.parse(localStorage.getItem('rates'))
+        let rates = JSON.parse(localStorage.getItem('rates') || '')
         let to = document.getElementById('to').value
         let from = document.getElementById('from').value
         let currency = document.getElementById('currency').value

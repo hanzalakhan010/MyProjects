@@ -14,6 +14,13 @@ export const projects: Project[] = [
     code: "https://github.com/hanzalakhan010/MyProjects/tree/main/src/pages/Todo",
     desc: "Simple Todo",
   },
+  {
+    name: "Currency Converter",
+    link: "/currency_converter",
+    image: "/todoImg.png",
+    code: "https://github.com/hanzalakhan010/MyProjects/tree/main/src/pages/Todo",
+    desc: "Simple Currency converter, i am working on it",
+  },
 ];
 
 export const todoProjects: Partial<Project>[] = [
