@@ -3,15 +3,26 @@ interface Project {
   code: string;
   link: string;
   image: string;
-  desc:string
+  desc: string;
 }
 
 export const projects: Project[] = [
   {
     name: "TODO",
     link: "/todo",
-    image: "",
+    image: "/todoImg.png",
     code: "https://github.com/hanzalakhan010/MyProjects/tree/main/src/pages/Todo",
-    desc:"Simple Todo"
+    desc: "Simple Todo",
   },
 ];
+
+export const todoProjects: Partial<Project>[] = [
+  {
+    name: "Currency Converter",
+  },
+  {
+    name: "Multi step Form",
+  },
+  { name: "Quiz Application" },
+];
+

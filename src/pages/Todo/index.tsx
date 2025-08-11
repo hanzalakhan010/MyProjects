@@ -8,7 +8,6 @@ interface Todo {
 const TODO = () => {
     const [todoInput, setTodoInput] = useState('')
     const [todos, setTodos] = useState<Todo[]>([])
-    // const [dones, setDones] = useState<string[]>([])
     const [editTodoId, setEditTodoId] = useState<string | null>(null)
     const [tab, setTab] = useState('todo')
     const handleTodoChange = (event: ChangeEvent<HTMLInputElement>) => {
