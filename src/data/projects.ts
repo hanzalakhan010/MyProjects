@@ -21,6 +21,15 @@ export const projects: Project[] = [
     code: "https://github.com/hanzalakhan010/MyProjects/tree/main/src/pages/Todo",
     desc: "Simple Currency converter, i am working on it",
   },
+  {
+    name: "Shopping Cart",
+    link: "https://shooopingcart.netlify.app/",
+    image: "/todoImg.png",
+    code: "https://github.com/hanzalakhan010/shopping-cart",
+    desc: `Shopping cart that utilises useContext of react to maintain global
+          state of cart items
+         `,
+  },
 ];
 
 export const todoProjects: Partial<Project>[] = [
@@ -32,4 +41,3 @@ export const todoProjects: Partial<Project>[] = [
   },
   { name: "Quiz Application" },
 ];
-
