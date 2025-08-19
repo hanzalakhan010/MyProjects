@@ -18,26 +18,35 @@ export const projects: Project[] = [
     name: "Currency Converter",
     link: "/currency_converter",
     image: "/todoImg.png",
-    code: "https://github.com/hanzalakhan010/MyProjects/tree/main/src/pages/Todo",
-    desc: "Simple Currency converter, i am working on it",
+    code: "https://github.com/hanzalakhan010/MyProjects/tree/main/src/pages/CurrencyConverter",
+    desc: "Simple Currency converter, still under improvement",
   },
   {
     name: "Shopping Cart",
     link: "https://shooopingcart.netlify.app/",
     image: "/todoImg.png",
     code: "https://github.com/hanzalakhan010/shopping-cart",
-    desc: `Shopping cart that utilises useContext of react to maintain global
-          state of cart items
-         `,
+    desc: `Shopping cart that utilises React's useContext to maintain global
+          state of cart items.`,
+  },
+  {
+    name: "Multi Step Form",
+    link: "multi-step-form-54tyak6t7-hanzala-5e6e05eb.vercel.app",
+    image: "/multi-step.png",
+    code: "https://github.com/hanzalakhan010/multi-step-form",
+    desc: "Multi-step form with validation and smooth navigation between steps.",
+  },
+  {
+    name: "Recipe Book",
+    link: "https://recipe-book-app-brown.vercel.app/",
+    image: "/recipe-book.png",
+    code: "https://github.com/hanzalakhan010/recipe-book-app",
+    desc: "Recipe Book app with add, edit, and persist features using Redux and redux-persist.",
   },
 ];
 
 export const todoProjects: Partial<Project>[] = [
   {
-    name: "Currency Converter",
+    name: "Quiz Application",
   },
-  {
-    name: "Multi step Form",
-  },
-  { name: "Quiz Application" },
 ];
