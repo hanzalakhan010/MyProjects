@@ -24,7 +24,7 @@ export const projects: Project[] = [
   {
     name: "Shopping Cart",
     link: "https://shopping-cart-pied-alpha.vercel.app/",
-    image: "/shooping-cart",
+    image: "/shooping-cart.png",
     code: "https://github.com/hanzalakhan010/shopping-cart",
     desc: `Shopping cart that utilises React's useContext to maintain global
           state of cart items.`,
