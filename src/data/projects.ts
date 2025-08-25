@@ -23,7 +23,7 @@ export const projects: Project[] = [
   },
   {
     name: "Shopping Cart",
-    link: "https://shooopingcart.netlify.app/",
+    link: "https://shopping-cart-pied-alpha.vercel.app/",
     image: "/todoImg.png",
     code: "https://github.com/hanzalakhan010/shopping-cart",
     desc: `Shopping cart that utilises React's useContext to maintain global
