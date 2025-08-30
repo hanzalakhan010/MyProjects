@@ -31,7 +31,7 @@ export const projects: Project[] = [
   },
   {
     name: "Multi Step Form",
-    link: "multi-step-form-54tyak6t7-hanzala-5e6e05eb.vercel.app",
+    link: "https://multi-step-form-beryl-chi.vercel.app/",
     image: "/multi-step.png",
     code: "https://github.com/hanzalakhan010/multi-step-form",
     desc: "Multi-step form with validation and smooth navigation between steps.",
@@ -42,6 +42,13 @@ export const projects: Project[] = [
     image: "/recipe-book.png",
     code: "https://github.com/hanzalakhan010/recipe-book-app",
     desc: "Recipe Book app with add, edit, and persist features using Redux and redux-persist.",
+  },
+  {
+    name: "Flow Bite website",
+    link: "https://flow-bite-website.vercel.app/",
+    image: "/flow-bite.png",
+    code: "https://github.com/hanzalakhan010/flow-bite-website",
+    desc: "Flow bite website, using React, React router v7,tailwindcss",
   },
 ];
 
