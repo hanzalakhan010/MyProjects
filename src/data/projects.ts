@@ -17,7 +17,7 @@ export const projects: Project[] = [
   {
     name: "Currency Converter",
     link: "/converter",
-    image: "/todoImg.png",
+    image: "/converter.png",
     code: "https://github.com/hanzalakhan010/MyProjects/tree/main/src/pages/CurrencyConverter",
     desc: "Simple Currency converter, still under improvement",
   },
